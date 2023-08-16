@@ -34,7 +34,7 @@ export default function Lsb() {
   return (
     <div className="left-sidebar">
       <div className="sidebar-header d-flex align-items-center justify-content-between">
-        <img src="./assets/images/logo.png" alt="Logo" />
+        <LogoLight />
         <span className="designation">{data.designation}</span>
       </div>
       <img className="me" src={data.profilePicture} alt="Me" />
